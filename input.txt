@@ -1,0 +1,18 @@
+bool p = false;
+
+float a;
+float m = 7;
+
+if (a < m) {
+    p = true; 
+}
+
+int c = 0;
+float d = 1;
+while (d) {
+    c = c + 1;
+    d = d * c;
+    if (c == 100) {
+        d = false;
+    }
+}
